@@ -8,6 +8,8 @@ class TodayViewModel(
     private val productsRepository: ProductsRepository,
 ) {
 
+    private val foo = 1
+
     companion object {
         fun provideFactory(
             postsRepository: ProductsRepository,
